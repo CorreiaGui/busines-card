@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script crossorigin="anonymous" src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js" defer></script>
+    <script src="./app.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <img class="eu" src="/images/gui.jpg" alt="">
+        </div>
+        <div class="intro-box">
+            <h1 class="intro-text"><span class="animated"></span></h1>
+        </div>
+        <div class="menu-container">
+            <ul class="social-cards">
+                <li class="social-card">
+                    <div class="itens" onclick="btnRedesSociais('linkedin')">
+                        <img class="icons" src="/icons/icons-linkedin.svg" alt="">
+                        <p>LinkedIn</p>
+                    </div>
+                </li>
+                <li class="social-card">
+                    <div class="itens" onclick="btnRedesSociais('github')">
+                        <img class="icons" src="/icons/icons8-github-branco.svg" alt="">
+                        <p>GitHub</p>
+                    </div>
+                </li>
+                <li class="social-card">
+                    <div class="itens" onclick="btnRedesSociais('whatsapp')">
+                        <img class="icons" src="/icons/icons8-whatsapp.svg" alt="">
+                        <p>WhatsApp</p>
+                    </div>
+                </li>
+                <li class="social-card">
+                    <div class="itens" onclick="btnRedesSociais('gmail')">
+                        <img class="icons" src="/icons/icons8-gmail-novo.svg" alt="">
+                        <p>    Gmail</p>
+                    </div>
+                </li>
+                <li class="social-card">
+                    <div class="itens" onclick="btnRedesSociais('instagram')">
+                        <img class="icons" src="/icons/icons8-instagram.svg" alt="">
+                        <p>Instagram</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p class="copy"> © 2024 Guilherme Correia Martins</p>
+        </div>
+    </div>
+</body>
+
+</html>

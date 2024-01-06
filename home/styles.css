@@ -1,0 +1,89 @@
+body {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #111;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.eu {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.intro-box {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    border-bottom: 1px solid #96e3fd;
+}
+
+h1 {
+    color: rgb(248, 248, 248);
+    font-size: 14px;
+}
+
+
+.container {
+    flex: 1;
+    text-align: center;
+}
+
+.menu-container {
+    border-radius: 25px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 0 1px #00Bfff; 
+
+}
+
+p {
+    color: #ffffff;
+}
+
+.social-cards {
+    padding: 0;
+    display: grid;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.social-card {
+    margin: 10px;
+    height: 45px;
+    width: 250px;
+    border: 1px solid;
+    border-image: linear-gradient(to right, #00Bfff, #8620f4);
+    border-image-slice: 1;
+    transition: transform 0.3s ease;
+}
+
+.social-card:hover {
+    transform: scale(1.05);
+}
+
+.icons {
+    margin-right: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.itens {
+    display: flex;
+    align-items: center;
+    margin:3px 50px 0px 50px;
+}
+
+.social-card p {
+    margin: 0;
+}
+
+.copy {
+    font-size: 7px;
+    margin-top: 50px;
+    bottom: 0; 
+}

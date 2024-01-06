@@ -9,19 +9,12 @@ document.addEventListener('DOMContentLoaded', () => {
 })
 
 function btnRedesSociais(str){
-    if(str === 'linkedin'){
-        window.location.href = 'https://www.linkedin.com/in/guilherme-correia-353629224';
-    }
-    if(str === 'github'){
-        window.location.href = 'https://github.com/CorreiaGui';
-    }
-    if(str === 'whatsapp'){
-        window.location.href = 'https://wa.me/5511932052850';
-    }
-    if(str === 'gmail'){
-        window.location.href = 'mailto:gc.correia21@gmail.com';
-    }
-    if(str === 'instagram'){
-        window.location.href = 'https://www.instagram.com/correiagui_/';
-    }
+    const redesSociais = {
+        'linkedin': 'https://www.linkedin.com/in/guilherme-correia-353629224',
+        'github': 'https://github.com/CorreiaGui',
+        'gmail': 'mailto:gc.correia21@gmail.com',
+        'instagram': 'https://www.instagram.com/correiagui_/'
+    };
+    const url = redesSociais[str];
+    url ? window.location.href = url : console.error('Rede social não reconhecida');
 }
